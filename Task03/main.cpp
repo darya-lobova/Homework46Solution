@@ -19,7 +19,7 @@ int main() {
 
 	int result = find_missing_element(n, array);
 
-	cout << result << endl;
+	cout << result;
 
 	return 0;
 }
