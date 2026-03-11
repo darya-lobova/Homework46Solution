@@ -2,10 +2,6 @@
 
 bool is_the_perfect_number(long long number) {
 
-	if (number == 0 || number % 2 != 0) {
-		return false;
-	}
-
 	switch (number) {
 	case 6:
 	case 28:
